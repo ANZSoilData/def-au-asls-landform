@@ -264,10 +264,10 @@ lf:geomorphological-agents
   skos:member lf:geomorphological-agents-gravity ;
   skos:member lf:geomorphological-agents-ice ;
   skos:member lf:geomorphological-agents-internal ;
+  skos:member lf:geomorphological-agents-precipitation ;
   skos:member lf:geomorphological-agents-stand ;
+  skos:member lf:geomorphological-agents-streamflow ;
   skos:member lf:geomorphological-agents-wind ;
-  skos:member skos:geomorphological-agents-precipitation ;
-  skos:member skos:geomorphological-agents-streamflow ;
   skos:note """Much of the standard terminology relevant to landform elements presumes that the geomorphological agent responsible for a landform is known; this presumption has been explicitly incorporated in the following glossary. In practice, the observer may find it difficult to infer correctly the agent responsible for producing a given landform element. The problem may be compounded by the apparent significance of more than one agent. In such cases, the observer should record both (a) the dominant agent, or the agent that is confidently inferred; and (b) a subordinate agent, or an agent that is dubiously inferred. In dubious cases, leave category (a) blank.
 The importance of identifying landform elements with the agent channelled stream flow is discussed under ‘Channel depth relative to width’ on page 39.""" ;
   skos:prefLabel "Geomorphological agent"@en ;
@@ -305,6 +305,15 @@ lf:geomorphological-agents-internal
   skos:member lf:geomorphological-agent-VO ;
   skos:prefLabel "Geomorphological agents - internal forces - enumeration" ;
 .
+lf:geomorphological-agents-precipitation
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-precipitation"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-SH ;
+  skos:member lf:geomorphological-agent-SM ;
+  skos:member lf:geomorphological-agent-SO ;
+  skos:member lf:geomorphological-agent-WM ;
+  skos:prefLabel "Geomorphological agents - precipitation - enumeration" ;
+.
 lf:geomorphological-agents-stand
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-stand"^^xsd:anyURI ;
@@ -312,6 +321,13 @@ lf:geomorphological-agents-stand
   skos:member lf:geomorphological-agent-TI ;
   skos:member lf:geomorphological-agent-WA ;
   skos:prefLabel "Geomorphological agents - standing water - enumeration" ;
+.
+lf:geomorphological-agents-streamflow
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-streamflow"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-CH ;
+  skos:member lf:geomorphological-agent-OV ;
+  skos:prefLabel "Geomorphological agents - stream flow - enumeration" ;
 .
 lf:geomorphological-agents-wind
   a skos:Collection ;
@@ -3056,10 +3072,6 @@ lf:mode-of-geomorphological-activity
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity"^^xsd:anyURI ;
-  skos:note """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
-However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
-To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
-Allow for the recording of more than one mode of activity, together with options concerning geomorphological agents."""@en ;
   skos:definition "Various modes of geomorphological activity may be distinguished (Figure 3)."@en ;
   skos:member lf:mode-of-geomorphological-activity-AG ;
   skos:member lf:mode-of-geomorphological-activity-BU ;
@@ -3068,6 +3080,10 @@ Allow for the recording of more than one mode of activity, together with options
   skos:member lf:mode-of-geomorphological-activity-EX ;
   skos:member lf:mode-of-geomorphological-activity-HU ;
   skos:member lf:mode-of-geomorphological-activity-SU ;
+  skos:note """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
+However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
+To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
+Allow for the recording of more than one mode of activity, together with options concerning geomorphological agents."""@en ;
   skos:prefLabel "Mode of geomorphological activity - enumeration"@en ;
 .
 lf:mode-of-geomorphological-activity-AG
@@ -3176,10 +3192,10 @@ lf:morphological-type-C
 lf:morphological-type-D
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-D"^^xsd:anyURI ;
-  skos:note "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   skos:definition "Landform element that stands below all, or almost all, points in the adjacent terrain. A closed depression stands below all such points."@en ;
   skos:inScheme asls:landform ;
   skos:notation "D" ;
+  skos:note "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   skos:prefLabel "Closed depression"@en ;
   skos:topConceptOf asls:landform ;
 .
@@ -3204,110 +3220,110 @@ lf:morphological-type-H
 lf:morphological-type-L
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-L"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
   skos:notation "L" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Lower slope (requires inclination modifier)"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LA
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LA"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is maximal."@en ;
   skos:inScheme asls:landform ;
   skos:notation "LA" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Lower slope Maximal"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LI"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is minimal."@en ;
   skos:inScheme asls:landform ;
   skos:notation "LI" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Lower slope Minimal"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LN
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LN"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waning."@en ;
   skos:inScheme asls:landform ;
   skos:notation "LN" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Lower slope Waning"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LX
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LX"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waxing."@en ;
   skos:inScheme asls:landform ;
   skos:notation "LX" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Lower slope Waxing"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-M
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-M"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
   skos:notation "M" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Mid-slope (requires inclination modifier)"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MA
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MA"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is maximal."@en ;
   skos:inScheme asls:landform ;
   skos:notation "MA" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Mid-slope Maximal"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MI"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is minimal."@en ;
   skos:inScheme asls:landform ;
   skos:notation "MI" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Mid-slope Minimal"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MN
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MN"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waning."@en ;
   skos:inScheme asls:landform ;
   skos:notation "MN" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Mid-slope Waning"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MX
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MX"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waxing."@en ;
   skos:inScheme asls:landform ;
   skos:notation "MX" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Mid-slope Waxing"@en ;
   skos:topConceptOf asls:landform ;
 .
@@ -3323,75 +3339,75 @@ lf:morphological-type-R
 lf:morphological-type-S
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-S"^^xsd:anyURI ;
-  skos:note "This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions."@en ;
   skos:definition "slope element adjacent below a crest or flat and adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
   skos:notation "S" ;
+  skos:note "This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions."@en ;
   skos:prefLabel "Simple slope"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-U
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-U"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
   skos:notation "U" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Upper slope (requires inclination modifier)"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UA
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UA"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is maximal."@en ;
   skos:inScheme asls:landform ;
   skos:notation "UA" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Upper slope Maximal"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UI"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is minimal."@en ;
   skos:inScheme asls:landform ;
   skos:notation "UI" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Upper slope Minimal"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UN
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UN"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waning."@en ;
   skos:inScheme asls:landform ;
   skos:notation "UN" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Upper slope Waning"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UX
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UX"^^xsd:anyURI ;
-  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
-This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waxing."@en ;
   skos:inScheme asls:landform ;
   skos:notation "UX" ;
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:prefLabel "Upper slope Waxing"@en ;
   skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-V
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-V"^^xsd:anyURI ;
-  skos:note "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   skos:definition "Landform element that stands below all, or almost all, points in the adjacent terrain. An open depression extends at the same elevation, or lower."@en ;
   skos:inScheme asls:landform ;
   skos:notation "V" ;
+  skos:note "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   skos:prefLabel "Open depression (vale)"@en ;
   skos:topConceptOf asls:landform ;
 .
@@ -4400,20 +4416,4 @@ lf:streamwise-channel-pattern-T
   skos:notation "T" ;
   skos:prefLabel "Tributary"@en ;
   skos:topConceptOf asls:landform ;
-.
-skos:geomorphological-agents-precipitation
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-precipitation"^^xsd:anyURI ;
-  skos:member lf:geomorphological-agent-SH ;
-  skos:member lf:geomorphological-agent-SM ;
-  skos:member lf:geomorphological-agent-SO ;
-  skos:member lf:geomorphological-agent-WM ;
-  skos:prefLabel "Geomorphological agents - precipitation - enumeration" ;
-.
-skos:geomorphological-agents-streamflow
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-streamflow"^^xsd:anyURI ;
-  skos:member lf:geomorphological-agent-CH ;
-  skos:member lf:geomorphological-agent-OV ;
-  skos:prefLabel "Geomorphological agents - stream flow - enumeration" ;
 .
