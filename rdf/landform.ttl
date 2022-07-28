@@ -95,8 +95,7 @@ lf:element-dimensions
 lf:geomorphological-agent-BI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-BI"^^xsd:anyURI ;
-  rdfs:comment "Biological agent"@en ;
-  skos:definition "Non-human biological agents; coral (Biological agents)."@en ;
+  skos:definition "Non-human biological agents; coral."@en ;
   skos:inScheme asls:landform ;
   skos:notation "BI" ;
   skos:prefLabel "Non-human biological agents"@en ;
@@ -105,8 +104,7 @@ lf:geomorphological-agent-BI
 lf:geomorphological-agent-CH
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-CH"^^xsd:anyURI ;
-  rdfs:comment "Stream flow"@en ;
-  skos:definition "Channelled stream flow (Stream flow)."@en ;
+  skos:definition "Channelled stream flow."@en ;
   skos:inScheme asls:landform ;
   skos:notation "CH" ;
   skos:prefLabel "Channelled stream flow"@en ;
@@ -115,8 +113,7 @@ lf:geomorphological-agent-CH
 lf:geomorphological-agent-DI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-DI"^^xsd:anyURI ;
-  rdfs:comment "Internal forces"@en ;
-  skos:definition "Diastrophism; earth movements (Internal forces)."@en ;
+  skos:definition "Diastrophism; earth movements."@en ;
   skos:inScheme asls:landform ;
   skos:notation "DI" ;
   skos:prefLabel "Diastrophism"@en ;
@@ -125,8 +122,7 @@ lf:geomorphological-agent-DI
 lf:geomorphological-agent-EU
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-EU"^^xsd:anyURI ;
-  rdfs:comment "Standing water"@en ;
-  skos:definition "Eustasy; changes in sea level (Standing water)."@en ;
+  skos:definition "Eustasy; changes in sea level."@en ;
   skos:inScheme asls:landform ;
   skos:notation "EU" ;
   skos:prefLabel "Eustasy"@en ;
@@ -135,8 +131,7 @@ lf:geomorphological-agent-EU
 lf:geomorphological-agent-FR
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-FR"^^xsd:anyURI ;
-  rdfs:comment "Ice"@en ;
-  skos:definition "Frost (Ice)."@en ;
+  skos:definition "Frost."@en ;
   skos:inScheme asls:landform ;
   skos:notation "FR" ;
   skos:prefLabel "Frost"@en ;
@@ -145,8 +140,7 @@ lf:geomorphological-agent-FR
 lf:geomorphological-agent-GL
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-GL"^^xsd:anyURI ;
-  rdfs:comment "Ice"@en ;
-  skos:definition "Glacier flow (Ice)."@en ;
+  skos:definition "Glacier flow."@en ;
   skos:inScheme asls:landform ;
   skos:notation "GL" ;
   skos:prefLabel "Glacier flow"@en ;
@@ -155,7 +149,6 @@ lf:geomorphological-agent-GL
 lf:geomorphological-agent-GR
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-GR"^^xsd:anyURI ;
-  rdfs:comment "Gravity"@en ;
   skos:definition "Collapse, or particle fall."@en ;
   skos:inScheme asls:landform ;
   skos:notation "GR" ;
@@ -165,8 +158,7 @@ lf:geomorphological-agent-GR
 lf:geomorphological-agent-HU
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-HU"^^xsd:anyURI ;
-  rdfs:comment "Biological agents"@en ;
-  skos:definition "Human agents (Biological agents)."@en ;
+  skos:definition "Human agents."@en ;
   skos:inScheme asls:landform ;
   skos:notation "HU" ;
   skos:prefLabel "Human agents"@en ;
@@ -175,8 +167,7 @@ lf:geomorphological-agent-HU
 lf:geomorphological-agent-IM
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-IM"^^xsd:anyURI ;
-  rdfs:comment "Extraterrestrial agents"@en ;
-  skos:definition "Impact by meteors (Extraterrestrial agents)."@en ;
+  skos:definition "Impact by meteors."@en ;
   skos:inScheme asls:landform ;
   skos:notation "IM" ;
   skos:prefLabel "Impact by meteors"@en ;
@@ -185,8 +176,7 @@ lf:geomorphological-agent-IM
 lf:geomorphological-agent-OV
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-OV"^^xsd:anyURI ;
-  rdfs:comment "Stream flow"@en ;
-  skos:definition "Overbank stream flow, unchannelled (Stream flow)."@en ;
+  skos:definition "Overbank stream flow, unchannelled."@en ;
   skos:inScheme asls:landform ;
   skos:notation "OV" ;
   skos:prefLabel "Overbank stream flow, unchannelled"@en ;
@@ -195,8 +185,7 @@ lf:geomorphological-agent-OV
 lf:geomorphological-agent-SH
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-SH"^^xsd:anyURI ;
-  rdfs:comment "Precipitation"@en ;
-  skos:definition "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
+  skos:definition "Sheet flow, sheet wash, surface wash."@en ;
   skos:inScheme asls:landform ;
   skos:notation "SH" ;
   skos:prefLabel "Sheet flow, sheet wash, surface wash"@en ;
@@ -205,8 +194,7 @@ lf:geomorphological-agent-SH
 lf:geomorphological-agent-SM
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-SM"^^xsd:anyURI ;
-  rdfs:comment "Precipitation"@en ;
-  skos:definition "Soil moisture status changes; creep (Precipitation)."@en ;
+  skos:definition "Soil moisture status changes; creep."@en ;
   skos:inScheme asls:landform ;
   skos:notation "SM" ;
   skos:prefLabel "Soil moisture status changes"@en ;
@@ -215,8 +203,7 @@ lf:geomorphological-agent-SM
 lf:geomorphological-agent-SO
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-SO"^^xsd:anyURI ;
-  rdfs:comment "Precipitation"@en ;
-  skos:definition "Solution (Precipitation)."@en ;
+  skos:definition "Solution."@en ;
   skos:inScheme asls:landform ;
   skos:notation "SO" ;
   skos:prefLabel "Solution"@en ;
@@ -225,8 +212,7 @@ lf:geomorphological-agent-SO
 lf:geomorphological-agent-TI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-TI"^^xsd:anyURI ;
-  rdfs:comment "Standing water"@en ;
-  skos:definition "Tides (Standing water)."@en ;
+  skos:definition "Tides."@en ;
   skos:inScheme asls:landform ;
   skos:notation "TI" ;
   skos:prefLabel "Tides"@en ;
@@ -235,8 +221,7 @@ lf:geomorphological-agent-TI
 lf:geomorphological-agent-VO
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-VO"^^xsd:anyURI ;
-  rdfs:comment "Internal forces"@en ;
-  skos:definition "Volcanism (Internal forces)."@en ;
+  skos:definition "Volcanism."@en ;
   skos:inScheme asls:landform ;
   skos:notation "VO" ;
   skos:prefLabel "Volcanism"@en ;
@@ -245,8 +230,7 @@ lf:geomorphological-agent-VO
 lf:geomorphological-agent-WA
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-WA"^^xsd:anyURI ;
-  rdfs:comment "Standing water"@en ;
-  skos:definition "Waves (Standing water)."@en ;
+  skos:definition "Waves."@en ;
   skos:inScheme asls:landform ;
   skos:notation "WA" ;
   skos:prefLabel "Waves"@en ;
@@ -255,8 +239,7 @@ lf:geomorphological-agent-WA
 lf:geomorphological-agent-WI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-WI"^^xsd:anyURI ;
-  rdfs:comment "Wind"@en ;
-  skos:definition "Wind (Wind)."@en ;
+  skos:definition "Wind."@en ;
   skos:inScheme asls:landform ;
   skos:notation "WI" ;
   skos:prefLabel "Wind"@en ;
@@ -265,8 +248,7 @@ lf:geomorphological-agent-WI
 lf:geomorphological-agent-WM
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-WM"^^xsd:anyURI ;
-  rdfs:comment "Precipitation"@en ;
-  skos:definition "Water-aided mass movements; landslides (Precipitation)."@en ;
+  skos:definition "Water-aided mass movements; landslides."@en ;
   skos:inScheme asls:landform ;
   skos:notation "WM" ;
   skos:prefLabel "Water-aided mass movements"@en ;
@@ -277,25 +259,65 @@ lf:geomorphological-agents
   a sosa:ObservableProperty ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents"^^xsd:anyURI ;
   skos:definition "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
+  skos:member lf:geomorphological-agents-bio ;
+  skos:member lf:geomorphological-agents-extra ;
+  skos:member lf:geomorphological-agents-gravity ;
+  skos:member lf:geomorphological-agents-ice ;
+  skos:member lf:geomorphological-agents-internal ;
+  skos:member lf:geomorphological-agents-stand ;
+  skos:member lf:geomorphological-agents-wind ;
+  skos:member skos:geomorphological-agents-precipitation ;
+  skos:member skos:geomorphological-agents-streamflow ;
+  skos:note """Much of the standard terminology relevant to landform elements presumes that the geomorphological agent responsible for a landform is known; this presumption has been explicitly incorporated in the following glossary. In practice, the observer may find it difficult to infer correctly the agent responsible for producing a given landform element. The problem may be compounded by the apparent significance of more than one agent. In such cases, the observer should record both (a) the dominant agent, or the agent that is confidently inferred; and (b) a subordinate agent, or an agent that is dubiously inferred. In dubious cases, leave category (a) blank.
+The importance of identifying landform elements with the agent channelled stream flow is discussed under ‘Channel depth relative to width’ on page 39.""" ;
+  skos:prefLabel "Geomorphological agent"@en ;
+.
+lf:geomorphological-agents-bio
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-bio"^^xsd:anyURI ;
   skos:member lf:geomorphological-agent-BI ;
-  skos:member lf:geomorphological-agent-CH ;
-  skos:member lf:geomorphological-agent-DI ;
-  skos:member lf:geomorphological-agent-EU ;
+  skos:member lf:geomorphological-agent-HU ;
+  skos:prefLabel "Geomorphological agents - biological agents - enumeration" ;
+.
+lf:geomorphological-agents-extra
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-extra"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-IM ;
+  skos:prefLabel "Geomorphological agents - extraterrestrial agents - enumeration" ;
+.
+lf:geomorphological-agents-gravity
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-gravity"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-GR ;
+  skos:prefLabel "Geomorphological agents - gravity - enumeration" ;
+.
+lf:geomorphological-agents-ice
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-ice"^^xsd:anyURI ;
   skos:member lf:geomorphological-agent-FR ;
   skos:member lf:geomorphological-agent-GL ;
-  skos:member lf:geomorphological-agent-GR ;
-  skos:member lf:geomorphological-agent-HU ;
-  skos:member lf:geomorphological-agent-IM ;
-  skos:member lf:geomorphological-agent-OV ;
-  skos:member lf:geomorphological-agent-SH ;
-  skos:member lf:geomorphological-agent-SM ;
-  skos:member lf:geomorphological-agent-SO ;
-  skos:member lf:geomorphological-agent-TI ;
+  skos:prefLabel "Geomorphological agents - ice - enumeration" ;
+.
+lf:geomorphological-agents-internal
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-internal"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-DI ;
   skos:member lf:geomorphological-agent-VO ;
+  skos:prefLabel "Geomorphological agents - internal forces - enumeration" ;
+.
+lf:geomorphological-agents-stand
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-stand"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-EU ;
+  skos:member lf:geomorphological-agent-TI ;
   skos:member lf:geomorphological-agent-WA ;
+  skos:prefLabel "Geomorphological agents - standing water - enumeration" ;
+.
+lf:geomorphological-agents-wind
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-wind"^^xsd:anyURI ;
   skos:member lf:geomorphological-agent-WI ;
-  skos:member lf:geomorphological-agent-WM ;
-  skos:prefLabel "Geomorphological agent - enumeration"@en ;
+  skos:prefLabel "Geomorphological agents - wind - enumeration" ;
 .
 lf:landform-element-ALC
   a skos:Concept ;
@@ -3034,7 +3056,7 @@ lf:mode-of-geomorphological-activity
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity"^^xsd:anyURI ;
-  rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
+  skos:note """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
 However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
 To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
 Allow for the recording of more than one mode of activity, together with options concerning geomorphological agents."""@en ;
@@ -3154,7 +3176,7 @@ lf:morphological-type-C
 lf:morphological-type-D
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-D"^^xsd:anyURI ;
-  rdfs:comment "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
+  skos:note "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   skos:definition "Landform element that stands below all, or almost all, points in the adjacent terrain. A closed depression stands below all such points."@en ;
   skos:inScheme asls:landform ;
   skos:notation "D" ;
@@ -3182,7 +3204,7 @@ lf:morphological-type-H
 lf:morphological-type-L
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-L"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
@@ -3193,7 +3215,7 @@ This morphological type requires a relative inclination of slope element modifie
 lf:morphological-type-LA
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LA"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is maximal."@en ;
   skos:inScheme asls:landform ;
@@ -3204,7 +3226,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-LI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LI"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is minimal."@en ;
   skos:inScheme asls:landform ;
@@ -3215,7 +3237,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-LN
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LN"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waning."@en ;
   skos:inScheme asls:landform ;
@@ -3226,7 +3248,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-LX
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-LX"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waxing."@en ;
   skos:inScheme asls:landform ;
@@ -3237,7 +3259,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-M
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-M"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
@@ -3248,7 +3270,7 @@ This morphological type requires a relative inclination of slope element modifie
 lf:morphological-type-MA
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MA"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is maximal."@en ;
   skos:inScheme asls:landform ;
@@ -3259,7 +3281,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-MI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MI"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is minimal."@en ;
   skos:inScheme asls:landform ;
@@ -3270,7 +3292,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-MN
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MN"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waning."@en ;
   skos:inScheme asls:landform ;
@@ -3281,7 +3303,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-MX
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-MX"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waxing."@en ;
   skos:inScheme asls:landform ;
@@ -3301,7 +3323,7 @@ lf:morphological-type-R
 lf:morphological-type-S
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-S"^^xsd:anyURI ;
-  rdfs:comment "This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions."@en ;
+  skos:note "This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions."@en ;
   skos:definition "slope element adjacent below a crest or flat and adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
   skos:notation "S" ;
@@ -3311,7 +3333,7 @@ lf:morphological-type-S
 lf:morphological-type-U
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-U"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type requires a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression."@en ;
   skos:inScheme asls:landform ;
@@ -3322,7 +3344,7 @@ This morphological type requires a relative inclination of slope element modifie
 lf:morphological-type-UA
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UA"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is maximal."@en ;
   skos:inScheme asls:landform ;
@@ -3333,7 +3355,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-UI
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UI"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is minimal."@en ;
   skos:inScheme asls:landform ;
@@ -3344,7 +3366,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-UN
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UN"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waning."@en ;
   skos:inScheme asls:landform ;
@@ -3355,7 +3377,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-UX
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-UX"^^xsd:anyURI ;
-  rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
+  skos:note """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waxing."@en ;
   skos:inScheme asls:landform ;
@@ -3366,7 +3388,7 @@ This morphological type has a relative inclination of slope element modifier."""
 lf:morphological-type-V
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-V"^^xsd:anyURI ;
-  rdfs:comment "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
+  skos:note "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   skos:definition "Landform element that stands below all, or almost all, points in the adjacent terrain. An open depression extends at the same elevation, or lower."@en ;
   skos:inScheme asls:landform ;
   skos:notation "V" ;
@@ -4378,4 +4400,20 @@ lf:streamwise-channel-pattern-T
   skos:notation "T" ;
   skos:prefLabel "Tributary"@en ;
   skos:topConceptOf asls:landform ;
+.
+skos:geomorphological-agents-precipitation
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-precipitation"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-SH ;
+  skos:member lf:geomorphological-agent-SM ;
+  skos:member lf:geomorphological-agent-SO ;
+  skos:member lf:geomorphological-agent-WM ;
+  skos:prefLabel "Geomorphological agents - precipitation - enumeration" ;
+.
+skos:geomorphological-agents-streamflow
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agents-streamflow"^^xsd:anyURI ;
+  skos:member lf:geomorphological-agent-CH ;
+  skos:member lf:geomorphological-agent-OV ;
+  skos:prefLabel "Geomorphological agents - stream flow - enumeration" ;
 .
