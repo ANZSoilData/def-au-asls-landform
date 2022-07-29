@@ -3414,27 +3414,27 @@ lf:morphological-type-V
 .
 lf:observable-properties
   a skos:Collection ;
-  skos:member lf:element-dimension-height ;
-  skos:member lf:element-dimension-length ;
-  skos:member lf:element-dimension-width ;
-  skos:member lf:geomorphological-agent ;
-  skos:member lf:location-within-the-landform-element ;
-  skos:member lf:location-within-toposequence ;
-  skos:member lf:modal-slope ;
-  skos:member lf:mode-of-geomorphological-activity ;
-  skos:member lf:morphological-type ;
-  skos:member lf:relative-inclination-of-slope-elements ;
-  skos:member lf:relief ;
-  skos:member lf:slope-class ;
-  skos:member lf:slope-value ;
-  skos:member lf:stream-channel-development ;
-  skos:member lf:stream-channel-migration ;
-  skos:member lf:stream-channel-network-directionality ;
-  skos:member lf:stream-channel-network-integration ;
-  skos:member lf:stream-channel-occurence ;
-  skos:member lf:stream-channel-relative-depth-width ;
-  skos:member lf:stream-channel-spacing ;
-  skos:member lf:streamwise-channel-pattern ;
+  skos:member <https://anzsoil.org/def/au/property/element-dimension-height> ;
+  skos:member <https://anzsoil.org/def/au/property/element-dimension-length> ;
+  skos:member <https://anzsoil.org/def/au/property/element-dimension-width> ;
+  skos:member <https://anzsoil.org/def/au/property/geomorphological-agent> ;
+  skos:member <https://anzsoil.org/def/au/property/location-within-the-landform-element> ;
+  skos:member <https://anzsoil.org/def/au/property/location-within-toposequence> ;
+  skos:member <https://anzsoil.org/def/au/property/modal-slope> ;
+  skos:member <https://anzsoil.org/def/au/property/mode-of-geomorphological-activity> ;
+  skos:member <https://anzsoil.org/def/au/property/morphological-type> ;
+  skos:member <https://anzsoil.org/def/au/property/relative-inclination-of-slope-elements> ;
+  skos:member <https://anzsoil.org/def/au/property/relief> ;
+  skos:member <https://anzsoil.org/def/au/property/slope-class> ;
+  skos:member <https://anzsoil.org/def/au/property/slope-value> ;
+  skos:member <https://anzsoil.org/def/au/property/stream-channel-development> ;
+  skos:member <https://anzsoil.org/def/au/property/stream-channel-migration> ;
+  skos:member <https://anzsoil.org/def/au/property/stream-channel-network-directionality> ;
+  skos:member <https://anzsoil.org/def/au/property/stream-channel-network-integration> ;
+  skos:member <https://anzsoil.org/def/au/property/stream-channel-occurence> ;
+  skos:member <https://anzsoil.org/def/au/property/stream-channel-relative-depth-width> ;
+  skos:member <https://anzsoil.org/def/au/property/stream-channel-spacing> ;
+  skos:member <https://anzsoil.org/def/au/property/streamwise-channel-pattern> ;
   skos:prefLabel "Observable properties of landforms" ;
 .
 lf:procedures
@@ -4417,4 +4417,88 @@ lf:streamwise-channel-pattern-T
   skos:notation "T" ;
   skos:prefLabel "Tributary"@en ;
   skos:topConceptOf asls:landform ;
+.
+<https://anzsoil.org/def/au/property/element-dimension-height>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Height of landform element"@en ;
+.
+<https://anzsoil.org/def/au/property/element-dimension-length>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Length of landform element"@en ;
+.
+<https://anzsoil.org/def/au/property/element-dimension-width>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Width of landform element"@en ;
+.
+<https://anzsoil.org/def/au/property/geomorphological-agent>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Geomorphological agent"@en ;
+.
+<https://anzsoil.org/def/au/property/location-within-the-landform-element>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Location within the landform element"@en ;
+.
+<https://anzsoil.org/def/au/property/location-within-toposequence>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Location within toposequence"@en ;
+.
+<https://anzsoil.org/def/au/property/modal-slope>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Modal slope"@en ;
+.
+<https://anzsoil.org/def/au/property/mode-of-geomorphological-activity>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Mode of geomorphological activity"@en ;
+.
+<https://anzsoil.org/def/au/property/morphological-type>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Morphological type"@en ;
+.
+<https://anzsoil.org/def/au/property/relative-inclination-of-slope-elements>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Relative inclination of slope elements"@en ;
+.
+<https://anzsoil.org/def/au/property/relief>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Relief"@en ;
+.
+<https://anzsoil.org/def/au/property/slope-class>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Class of slope"@en ;
+.
+<https://anzsoil.org/def/au/property/slope-value>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Slope %"@en ;
+.
+<https://anzsoil.org/def/au/property/stream-channel-development>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream channel development"@en ;
+.
+<https://anzsoil.org/def/au/property/stream-channel-migration>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream channel migration"@en ;
+.
+<https://anzsoil.org/def/au/property/stream-channel-network-directionality>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream channel network directionality"@en ;
+.
+<https://anzsoil.org/def/au/property/stream-channel-network-integration>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream channel network integration"@en ;
+.
+<https://anzsoil.org/def/au/property/stream-channel-occurence>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream channel occurence"@en ;
+.
+<https://anzsoil.org/def/au/property/stream-channel-relative-depth-width>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream channel depth relative to width"@en ;
+.
+<https://anzsoil.org/def/au/property/stream-channel-spacing>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream channel spacing"@en ;
+.
+<https://anzsoil.org/def/au/property/streamwise-channel-pattern>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Stream-wise channel pattern"@en ;
 .
