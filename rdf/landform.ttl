@@ -4419,86 +4419,86 @@ lf:streamwise-channel-pattern-T
   skos:topConceptOf asls:landform ;
 .
 <https://anzsoil.org/def/au/property/element-dimension-height>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Height of landform element"@en ;
 .
 <https://anzsoil.org/def/au/property/element-dimension-length>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Length of landform element"@en ;
 .
 <https://anzsoil.org/def/au/property/element-dimension-width>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Width of landform element"@en ;
 .
 <https://anzsoil.org/def/au/property/geomorphological-agent>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Geomorphological agent"@en ;
 .
 <https://anzsoil.org/def/au/property/location-within-the-landform-element>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Location within the landform element"@en ;
 .
 <https://anzsoil.org/def/au/property/location-within-toposequence>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Location within toposequence"@en ;
 .
 <https://anzsoil.org/def/au/property/modal-slope>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Modal slope"@en ;
 .
 <https://anzsoil.org/def/au/property/mode-of-geomorphological-activity>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Mode of geomorphological activity"@en ;
 .
 <https://anzsoil.org/def/au/property/morphological-type>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Morphological type"@en ;
 .
 <https://anzsoil.org/def/au/property/relative-inclination-of-slope-elements>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Relative inclination of slope elements"@en ;
 .
 <https://anzsoil.org/def/au/property/relief>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Relief"@en ;
 .
 <https://anzsoil.org/def/au/property/slope-class>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Class of slope"@en ;
 .
 <https://anzsoil.org/def/au/property/slope-value>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Slope %"@en ;
 .
 <https://anzsoil.org/def/au/property/stream-channel-development>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream channel development"@en ;
 .
 <https://anzsoil.org/def/au/property/stream-channel-migration>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream channel migration"@en ;
 .
 <https://anzsoil.org/def/au/property/stream-channel-network-directionality>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream channel network directionality"@en ;
 .
 <https://anzsoil.org/def/au/property/stream-channel-network-integration>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream channel network integration"@en ;
 .
 <https://anzsoil.org/def/au/property/stream-channel-occurence>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream channel occurence"@en ;
 .
 <https://anzsoil.org/def/au/property/stream-channel-relative-depth-width>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream channel depth relative to width"@en ;
 .
 <https://anzsoil.org/def/au/property/stream-channel-spacing>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream channel spacing"@en ;
 .
 <https://anzsoil.org/def/au/property/streamwise-channel-pattern>
-  a sosa:ObservableProperty ;
+  a sosa:ObservableProperty , skos:Concept ;
   skos:prefLabel "Stream-wise channel pattern"@en ;
 .
