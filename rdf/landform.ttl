@@ -32,7 +32,7 @@ In this technique for describing landforms, the whole land surface is viewed as 
   dcterms:identifier "http://anzsoil.org/def/au/asls/vegetation"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-07-29"^^xsd:date ;
+  dcterms:modified "2022-11-23"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -45,6 +45,7 @@ In this technique for describing landforms, the whole land surface is viewed as 
   skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition andskos:prefLabel" ;
   skos:changeNote "2022-07-27 - relabel collections as XXX-enumeration; remove skos-ext namespace" ;
   skos:changeNote "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ;
+  skos:changeNote "2022-11-23 - Rename collections for consistency with ANSIS" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> and <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a></p>"^^rdf:HTML ;
   skos:prefLabel "ASLS Landform classifiers"@en ;
 .
