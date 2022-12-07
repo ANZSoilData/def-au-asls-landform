@@ -31,7 +31,7 @@ In this technique for describing landforms, the whole land surface is viewed as 
   dcterms:identifier "http://anzsoil.org/def/au/asls/vegetation"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-11-23"^^xsd:date ;
+  dcterms:modified "2022-12-07"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -44,6 +44,7 @@ In this technique for describing landforms, the whole land surface is viewed as 
   skos:changeNote "2022-07-27 - relabel collections as XXX-enumeration; remove skos-ext namespace" ;
   skos:changeNote "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ;
   skos:changeNote "2022-11-23 - Rename collections for consistency with ANSIS" ;
+  skos:changeNote "2022-12-07 - remove observable-properties collection" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> and <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a></p>"^^rdf:HTML ;
   skos:prefLabel "ASLS Landform classifiers"@en ;
 .
@@ -61,7 +62,6 @@ For detailed studies, keep records of width and depth measurements. In other sur
   skos:member lf:stream-channel-relative-depth-width-S ;
   skos:member lf:stream-channel-relative-depth-width-V ;
   skos:prefLabel "Stream channel depth relative to width - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/stream-channel-relative-depth-width> ;
 .
 lf:Channel-development
   a owl:Class ;
@@ -74,7 +74,6 @@ lf:Channel-development
   skos:member lf:stream-channel-development-I ;
   skos:member lf:stream-channel-development-O ;
   skos:prefLabel "Stream channel development - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/stream-channel-development> ;
 .
 lf:Channel-directionality
   a owl:Class ;
@@ -90,7 +89,6 @@ lf:Channel-directionality
   skos:member lf:stream-channel-network-directionality-P ;
   skos:member lf:stream-channel-network-directionality-U ;
   skos:prefLabel "Stream channel network directionality - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/stream-channel-network-directionality> ;
 .
 lf:Channel-integration
   a owl:Class ;
@@ -102,7 +100,6 @@ lf:Channel-integration
   skos:member lf:stream-channel-network-integration-I ;
   skos:member lf:stream-channel-network-integration-P ;
   skos:prefLabel "Stream channel network integration - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/stream-channel-network-integration> ;
 .
 lf:Channel-migration
   a owl:Class ;
@@ -114,7 +111,6 @@ lf:Channel-migration
   skos:member lf:stream-channel-migration-R ;
   skos:member lf:stream-channel-migration-S ;
   skos:prefLabel "Stream channel migration - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/stream-channel-migration> ;
 .
 lf:Channel-pattern
   a owl:Class ;
@@ -127,7 +123,6 @@ lf:Channel-pattern
   skos:member lf:streamwise-channel-pattern-R ;
   skos:member lf:streamwise-channel-pattern-T ;
   skos:prefLabel "Stream-wise channel pattern - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/streamwise-channel-pattern> ;
 .
 lf:Channel-spacing
   a owl:Class ;
@@ -145,7 +140,6 @@ A convenient tool for estimating channel spacing is a circle, with a circumferen
   skos:member lf:stream-channel-spacing-VW ;
   skos:member lf:stream-channel-spacing-WS ;
   skos:prefLabel "Stream channel spacing - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/stream-channel-spacing> ;
 .
 lf:Geomorphology-agent
   a skos:Collection ;
@@ -163,7 +157,6 @@ lf:Geomorphology-agent
   skos:note """Much of the standard terminology relevant to landform elements presumes that the geomorphological agent responsible for a landform is known; this presumption has been explicitly incorporated in the following glossary. In practice, the observer may find it difficult to infer correctly the agent responsible for producing a given landform element. The problem may be compounded by the apparent significance of more than one agent. In such cases, the observer should record both (a) the dominant agent, or the agent that is confidently inferred; and (b) a subordinate agent, or an agent that is dubiously inferred. In dubious cases, leave category (a) blank.
 The importance of identifying landform elements with the agent channelled stream flow is discussed under ‘Channel depth relative to width’ on page 39.""" ;
   skos:prefLabel "Geomorphological agent"@en ;
-  skos:related <https://anzsoil.org/def/au/property/geomorphological-agent> ;
 .
 lf:Geomorphology-agent-bio
   a owl:Class ;
@@ -264,7 +257,6 @@ However, many engineering works involve erosion and aggradation because these gr
 To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
 Allow for the recording of more than one mode of activity, together with options concerning geomorphological agents."""@en ;
   skos:prefLabel "Mode of geomorphological activity - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/mode-of-geomorphological-activity> ;
 .
 lf:Geomorphology-status
   a owl:Class ;
@@ -293,7 +285,6 @@ Unspecified	Plain, alluvial plain
 Table 11 shows how types of landform pattern vary in their status of geomorphological activity. Note that flood plains, including bar plains, meander plains, covered plains, anastomotic plains, and deltas, are distinguished from terraces or stagnant alluvial plains by having frequently active rather than seldom active or inactive stream flow. This may have legal significance. The frequency of occurrence of inundation (see page 96) that is classed as frequently active in this Handbook is an Average Recurrence Interval of 50 years or less.
 A landform pattern may change from one type to another type if the status of geomorphological activity changes for any reason, including human interference such as diverting a stream or building a dam."""@en ;
   skos:prefLabel "Status of geomorphological activity - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/status> ;
 .
 lf:Landform-element-name
   a owl:Class ;
@@ -414,7 +405,6 @@ lf:Landform-element-type
   skos:member lf:morphological-type-UX ;
   skos:member lf:morphological-type-V ;
   skos:prefLabel "Morphological type - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/morphological-type> ;
 .
 lf:Landform-pattern-erosional
   a owl:Class ;
@@ -504,7 +494,6 @@ lf:Location-in-element
   skos:member lf:location-within-the-landform-element-M ;
   skos:member lf:location-within-the-landform-element-T ;
   skos:prefLabel "Location within the landform element - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/location-within-the-landform-element> ;
 .
 lf:Relative-inclination
   a owl:Class ;
@@ -517,7 +506,6 @@ lf:Relative-inclination
   skos:member lf:relative-inclination-of-slope-elements-N ;
   skos:member lf:relative-inclination-of-slope-elements-X ;
   skos:prefLabel "Relative inclination of slope elements - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/relative-inclination-of-slope-elements> ;
 .
 lf:Relief
   a owl:Class ;
@@ -533,7 +521,6 @@ Table 6 lists types of landform pattern defined in the glossary according to the
   skos:member lf:relief-class-P ;
   skos:member lf:relief-class-R ;
   skos:prefLabel "Relief - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/relief> ;
 .
 lf:Slope-class
   a owl:Class ;
@@ -553,7 +540,6 @@ There may also be compelling reasons for using other schemes of slope classes. H
   skos:member lf:slope-class-VG ;
   skos:member lf:slope-class-VS ;
   skos:prefLabel "Class of slope - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/slope-class> ;
 .
 lf:Slope-modal
   a owl:Class ;
@@ -570,7 +556,6 @@ Table 7 lists types of landform pattern in order of their typical class of modal
   skos:member lf:relief-class-P ;
   skos:member lf:relief-class-R ;
   skos:prefLabel "Modal slope - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/modal-slope> ;
 .
 lf:Slope-procedure
   a owl:Class ;
@@ -602,7 +587,6 @@ lf:element-dimension-height
   skos:definition "difference in elevation between the upper and lower margins of the element, measured along any slope line. Height can mean quite different things and must be carefully defined. For crests, ridges and hillocks, define the upper margin as the point where the selected slope line coalesces with others to form the ridge line. For depressions, define the lower margin as the point where the selected slope line coalesces with others to form the course line."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Height of landform element"@en ;
-  skos:related <https://anzsoil.org/def/au/property/element-dimension-height> ;
   skos:topConceptOf asls:landform ;
 .
 lf:element-dimension-length
@@ -612,7 +596,6 @@ lf:element-dimension-length
   skos:definition "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Length of landform element"@en ;
-  skos:related <https://anzsoil.org/def/au/property/element-dimension-length> ;
   skos:topConceptOf asls:landform ;
 .
 lf:element-dimension-width
@@ -622,7 +605,6 @@ lf:element-dimension-width
   skos:definition "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Width of landform element"@en ;
-  skos:related <https://anzsoil.org/def/au/property/element-dimension-width> ;
   skos:topConceptOf asls:landform ;
 .
 lf:element-dimensions
@@ -4171,7 +4153,6 @@ Any site can be located by its vertical and horizontal distances from the define
 The toposequence concept leads to definition of the attributes specific catchment area and specific dispersal area (Speight 1974, 1980) that predict hillslope hydrology and erosion (see, for example, Moore et al. 1988)."""@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Location within toposequence"@en ;
-  skos:related <https://anzsoil.org/def/au/property/location-within-toposequence> ;
   skos:topConceptOf asls:landform ;
 .
 lf:mode-of-geomorphological-activity-AG
@@ -4606,33 +4587,6 @@ lf:morphological-type-V
   skos:note "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   skos:prefLabel "Open depression (vale)"@en ;
   skos:topConceptOf asls:landform ;
-.
-lf:observable-properties
-  a owl:Class ;
-  a skos:Collection ;
-  rdfs:subClassOf skos:Concept ;
-  skos:member <https://anzsoil.org/def/au/property/element-dimension-height> ;
-  skos:member <https://anzsoil.org/def/au/property/element-dimension-length> ;
-  skos:member <https://anzsoil.org/def/au/property/element-dimension-width> ;
-  skos:member <https://anzsoil.org/def/au/property/geomorphological-agent> ;
-  skos:member <https://anzsoil.org/def/au/property/location-within-the-landform-element> ;
-  skos:member <https://anzsoil.org/def/au/property/location-within-toposequence> ;
-  skos:member <https://anzsoil.org/def/au/property/modal-slope> ;
-  skos:member <https://anzsoil.org/def/au/property/mode-of-geomorphological-activity> ;
-  skos:member <https://anzsoil.org/def/au/property/morphological-type> ;
-  skos:member <https://anzsoil.org/def/au/property/relative-inclination-of-slope-elements> ;
-  skos:member <https://anzsoil.org/def/au/property/relief> ;
-  skos:member <https://anzsoil.org/def/au/property/slope-class> ;
-  skos:member <https://anzsoil.org/def/au/property/slope-value> ;
-  skos:member <https://anzsoil.org/def/au/property/stream-channel-development> ;
-  skos:member <https://anzsoil.org/def/au/property/stream-channel-migration> ;
-  skos:member <https://anzsoil.org/def/au/property/stream-channel-network-directionality> ;
-  skos:member <https://anzsoil.org/def/au/property/stream-channel-network-integration> ;
-  skos:member <https://anzsoil.org/def/au/property/stream-channel-occurence> ;
-  skos:member <https://anzsoil.org/def/au/property/stream-channel-relative-depth-width> ;
-  skos:member <https://anzsoil.org/def/au/property/stream-channel-spacing> ;
-  skos:member <https://anzsoil.org/def/au/property/streamwise-channel-pattern> ;
-  skos:prefLabel "Observable properties of landforms" ;
 .
 lf:relative-inclination-of-slope-elements-A
   a lf:Relative-inclination ;
@@ -5174,7 +5128,6 @@ lf:slope-value
   skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Slope %"@en ;
-  skos:related <https://anzsoil.org/def/au/property/slope-value> ;
   skos:topConceptOf asls:landform ;
 .
 lf:status-of-geomorphological-activity-B
@@ -5420,7 +5373,6 @@ When assessing attributes of stream channel occurrence, it is easy to make error
   skos:member lf:Channel-pattern ;
   skos:member lf:Channel-spacing ;
   skos:prefLabel "Stream channel occurence - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/stream-channel-occurence> ;
 .
 lf:stream-channel-relative-depth-width-D
   a lf:Channel-depth-width ;
@@ -5581,109 +5533,4 @@ lf:streamwise-channel-pattern-T
   skos:notation "T" ;
   skos:prefLabel "Tributary"@en ;
   skos:topConceptOf asls:landform ;
-.
-<https://anzsoil.org/def/au/property/element-dimension-height>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Height of landform element"@en ;
-.
-<https://anzsoil.org/def/au/property/element-dimension-length>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Length of landform element"@en ;
-.
-<https://anzsoil.org/def/au/property/element-dimension-width>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Width of landform element"@en ;
-.
-<https://anzsoil.org/def/au/property/geomorphological-agent>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Geomorphological agent"@en ;
-.
-<https://anzsoil.org/def/au/property/location-within-the-landform-element>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Location within the landform element"@en ;
-.
-<https://anzsoil.org/def/au/property/location-within-toposequence>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Location within toposequence"@en ;
-.
-<https://anzsoil.org/def/au/property/modal-slope>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Modal slope"@en ;
-.
-<https://anzsoil.org/def/au/property/mode-of-geomorphological-activity>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Mode of geomorphological activity"@en ;
-.
-<https://anzsoil.org/def/au/property/morphological-type>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Morphological type"@en ;
-.
-<https://anzsoil.org/def/au/property/relative-inclination-of-slope-elements>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Relative inclination of slope elements"@en ;
-.
-<https://anzsoil.org/def/au/property/relief>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Relief"@en ;
-.
-<https://anzsoil.org/def/au/property/slope-class>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Class of slope"@en ;
-.
-<https://anzsoil.org/def/au/property/slope-value>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Slope %"@en ;
-.
-<https://anzsoil.org/def/au/property/stream-channel-development>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream channel development"@en ;
-.
-<https://anzsoil.org/def/au/property/stream-channel-migration>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream channel migration"@en ;
-.
-<https://anzsoil.org/def/au/property/stream-channel-network-directionality>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream channel network directionality"@en ;
-.
-<https://anzsoil.org/def/au/property/stream-channel-network-integration>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream channel network integration"@en ;
-.
-<https://anzsoil.org/def/au/property/stream-channel-occurence>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream channel occurence"@en ;
-.
-<https://anzsoil.org/def/au/property/stream-channel-relative-depth-width>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream channel depth relative to width"@en ;
-.
-<https://anzsoil.org/def/au/property/stream-channel-spacing>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream channel spacing"@en ;
-.
-<https://anzsoil.org/def/au/property/streamwise-channel-pattern>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream-wise channel pattern"@en ;
 .
