@@ -15,11 +15,11 @@ authors:
 repository-code: 'https://github.com/ANZSoilData/def-au-asls-landform'
 repository: 'https://vocabs.ardc.edu.au'
 abstract: >-
-  Machine-readable representation of a the classifiers for Landform -  J.G. Speight, Chapter 5 - of the Australian soil and land survey field handbook.
+  Machine-readable representation of a the classifiers for Landform -  J.G. Speight, Chapter 5 - of the Australian soil and land survey field handbook. Superseds https://doi.org/10.25919/5f42f2e94119c
 keywords:
   - landform
   - linked data
   - vocabulary
 license: CC-BY-1.0
-version: 1.0.1
+version: 2.0.1
 date-released: '2022-12-16'
