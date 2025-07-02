@@ -1,15 +1,25 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+title: >-
+  Machine readable representation (Resource Description format, RDF) of the classifiers for Landform - the Australian soil and land survey field handbook (3rd edn)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: dataset
 authors:
-  - family-names: Cox
-    given-names: Simon
-    orcid: https://orcid.org/0000-0002-3884-3420
-title: "Machine-readable representation of a the classifiers for Landform - from Chapter 5 of the Australian soil and land survey field handbook (3rd edn)"
-version: 2.0.0
-doi:  
-url: https://github.com/ANZSoilData/def-au-asls-landform
-date-released: 2022-12-16
-license: CC0
-license-url: https://creativecommons.org/choose/zero/
-abstract: >
-  Machine-readable representation of the classifiers described in chapter 5 Landform, by J.G. Speight, in Australian. Superseeds v1 https://doi.org/10.25919/5f42f324b2ef8
+  - given-names: Simon
+    family-names: Cox
+    orcid: 'https://orcid.org/0000-0002-3884-3420'
+repository-code: 'https://github.com/ANZSoilData/def-au-asls-landform'
+repository: 'https://vocabs.ardc.edu.au'
+abstract: >-
+  Machine-readable representation of a the classifiers for Landform -  J.G. Speight, Chapter 5 - of the Australian soil and land survey field handbook.
+keywords:
+  - land surface
+  - linked data
+  - vocabulary
+license: CC-BY-1.0
+version: 1.0.1
+date-released: '2022-12-16'
