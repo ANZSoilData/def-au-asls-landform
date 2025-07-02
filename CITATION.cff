@@ -17,7 +17,7 @@ repository: 'https://vocabs.ardc.edu.au'
 abstract: >-
   Machine-readable representation of a the classifiers for Landform -  J.G. Speight, Chapter 5 - of the Australian soil and land survey field handbook.
 keywords:
-  - land surface
+  - landform
   - linked data
   - vocabulary
 license: CC-BY-1.0
