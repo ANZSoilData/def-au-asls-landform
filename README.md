@@ -1,3 +1,6 @@
+Cite as: ![image](https://github.com/user-attachments/assets/bdd30b9d-0fe3-4f6f-9158-266dd3c00ef8)
+
+
 # def-au-asls-landform
 Machine-readable representation of the classifiers described in chapter 5 Landform, by J.G. Speight, in Australian soil and land survey field handbook (3rd edn)
 
